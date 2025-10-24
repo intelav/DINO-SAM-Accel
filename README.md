@@ -18,8 +18,8 @@ Supported object classes:
 | Stage                               | Description                                                                                                                          |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | **Prototype Creation**              | `create_features_dino.py` / `create_features_LBP_RGB.py` extract DINOv2 or LBP+NDWI feature vectors from annotated `.json` polygons. |
-| **Batch Prototype Builder**         | `batch_create_dino_prototypes.sh` automates feature generation for all TIF + JSON pairs.                                             |
-| **Auto-Annotation (GPU Optimized)** | `auto_annotate_dino_nvtx_optimized.py` performs window-based detection using FAISS similarity search with optional SAM2 refinement.  |
+| **Batch Prototype Builder**         | `batch_create_dino_prototypes.sh` crate prototypes for all TIF + JSON pairs.                                             |
+| **Auto-Annotation (GPU Optimized)** | `auto_annotate_dino_nvtx_optimized.py` performs window-based detection using DINOV2 Embedding with SAM2 refinement.  |
 | **Batch Detection**                 | `batch_auto_annotate_dino.sh` runs the optimized annotator across datasets.                                                          |
 | **Interactive Review UI**           | `ui_review.py` enables OpenCV-based visual verification, class editing, and YOLO export.                                             |
 
