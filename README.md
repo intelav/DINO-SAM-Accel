@@ -1,7 +1,7 @@
 # ⚡ DINO-SAM-Accel: GPU-Optimized Geospatial Annotation
 
 **Accelerating Geospatial Intelligence through DINOv2, SAM2, and GPU Optimization.**
-Developed under the **SvarAikyam AI / AI Fusion** research initiative, this project unites **DINOv2** self-supervised embeddings, **Segment Anything 2 (SAM2)** polygon refinement, and classical **LBP + NDWI** features — all optimized for GPU-accelerated annotation and visual search in high-resolution satellite imagery.
+This project unites **DINOv2** self-supervised embeddings, **Segment Anything 2 (SAM2)** polygon refinement, and classical **LBP + NDWI** features — all optimized for GPU-accelerated annotation and visual search in high-resolution satellite imagery.
 
 ---
 
@@ -18,8 +18,8 @@ Supported object classes:
 | Stage                               | Description                                                                                                                          |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | **Prototype Creation**              | `create_features_dino.py` / `create_features_LBP_RGB.py` extract DINOv2 or LBP+NDWI feature vectors from annotated `.json` polygons. |
-| **Batch Prototype Builder**         | `batch_create_dino_prototypes.sh` crate prototypes for all TIF + JSON pairs.                                             |
-| **Auto-Annotation (GPU Optimized)** | `auto_annotate_dino_nvtx_optimized.py` performs window-based detection using DINOV2 Embedding with SAM2 refinement.  |
+| **Batch Prototype Builder**         | `batch_create_dino_prototypes.sh` create prototypes for all TIF + JSON pairs.                                             |
+| **Auto-Annotation (GPU Optimized)** | `auto_annotate_dino_nvtx_optimized.py` performs window-based detection using DINOV2 Embedding and SAM2 refinement.  |
 | **Batch Detection**                 | `batch_auto_annotate_dino.sh` runs the optimized annotator across datasets.                                                          |
 | **Interactive Review UI**           | `ui_review.py` enables OpenCV-based visual verification, class editing, and YOLO export.                                             |
 
