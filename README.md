@@ -1,7 +1,7 @@
 # ⚡ DINO-SAM-Accel: GPU-Optimized Geospatial Annotation
 
 **Accelerating Geospatial Intelligence through DINOv2, SAM2, and GPU Optimization.**
-This project unites **DINOv2** self-supervised embeddings, **Segment Anything 2 (SAM2)** polygon refinement, and classical **LBP + NDWI** features — all optimized for GPU-accelerated annotation and visual search in high-resolution satellite imagery.
+This project unites **DINOv2** self-supervised embeddings and **Segment Anything 2 (SAM2)** polygon refinement — all optimized for GPU-accelerated annotation and visual search in high-resolution satellite imagery.
 
 ---
 
